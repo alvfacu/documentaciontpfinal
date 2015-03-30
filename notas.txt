@@ -1,0 +1,1 @@
+- Revisar precondiciones y post-condiciones 
