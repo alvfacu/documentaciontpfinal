@@ -1,1 +1,20 @@
-- Revisar precondiciones y post-condiciones 
+- Revisar precondiciones y post-condiciones:
+
+-- "Existen habitaciones disponibles.": Ya damos por hecho que si o si va a poder encontrar habitaciones reservadas? Yo no la pondría, así damos por hecho las validaciones (si todos los datos del cliente están bien pero no hay disponible habitaciones en esas fechas, entonces no puede reservar) 
+-- No se qué precondiciones de negocio podemos definir: "Existen habitaciones"?
+-- "Existen habitaciones registradas.": Agrego esto que vendría a ser lo más similar a "Existen habitaciones disponibles".
+-- "Existen clientes registrados." Damos por hecho que no se validan los CL? No se ... Tiene sentido igual, aunque no damos la posibilidad de registrar a nuevos clientes(?
+
+- Para c/ precondicion, vamos(voy) a hacer un CU para c/u: en base al MD armo los CU.
+
+- Tenemos que ver si agregamos la parte WEB: osea que ni llame sino que haga toda la reserva directamente en el sistema (página web) CONSULTA A ROZAS (NOOOOOOOOOO JAJAJAJAJAA)
+
+- "Éxito: Nuevo CL hospedado en el hotel" Este sería el alternativo.
+
+- Tengo muchas dudas con los alternativos, hasta qué punto/cuál es nuestro límite, no se si lo que agregué es muy específico que cae en un alternativo de un CU usuario.
+
+- La postcondicion en sistema deberia ser respecto al CHECK-OUT, es el último registro que se hace en el sistema, la última activdad que representa el fin del hospedaje del cliente en el hotel.
+
+- El RE me copa, faltaría adaptarlo a esas notas que hice antes (?
+
+*SE NOTA MUCHO QUE NO RECUERDO NADA DE ADES JAJAJAJA*
